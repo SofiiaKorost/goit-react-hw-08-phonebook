@@ -11,10 +11,10 @@ export const StyledLink = styled(NavLink)`
   text-align: center;
   transition: color 250ms linear, background-color 250ms linear;
   &.active {
-    background-color: orange;
+    background-color: pink;
   }
   :hover:not(.active),
   :focus-visible:not(.active) {
-    color: orange;
+    color: pink;
   }
 `;

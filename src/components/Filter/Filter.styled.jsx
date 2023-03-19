@@ -29,6 +29,6 @@ export const Input = styled.input`
 
   :hover,
   :focus {
-    border-color: orange;
+    border-color: pink;
   }
 `;

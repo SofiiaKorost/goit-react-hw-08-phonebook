@@ -6,7 +6,7 @@ export const Header = styled.header`
   align-items: center;
   justify-content: space-between;
   padding: 8px 0;
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid purple;
   > nav,
   div {
     display: flex;
@@ -21,10 +21,10 @@ export const StyledLink = styled(NavLink)`
   font-weight: 500;
   transition: color 250ms linear, background-color 250ms linear;
   &.active {
-    background-color: orange;
+    background-color: purple;
   }
   :hover:not(.active),
   :focus-visible:not(.active) {
-    color: orange;
+    color: pink;
   }
 `;

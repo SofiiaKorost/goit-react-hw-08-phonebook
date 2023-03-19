@@ -29,7 +29,7 @@ export const Input = styled(Field)`
 
   :hover,
   :focus {
-    border-color: orange;
+    border-color: pink;
   }
 `;
 
@@ -44,7 +44,7 @@ export const Button = styled.button`
   height: 40px;
   width: 150px;
   padding: 8px;
-  background-color: orange;
+  background-color: purple;
   border-radius: 4px;
   border: 2px solid #fff;
   color: #fff;
@@ -59,6 +59,6 @@ export const Button = styled.button`
   :focus {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     background-color: #fff;
-    color: orange;
+    color: pink;
   }
 `;

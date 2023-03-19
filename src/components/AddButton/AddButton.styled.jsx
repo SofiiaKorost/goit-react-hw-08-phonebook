@@ -15,7 +15,7 @@ export const Button = styled.button`
   width: 100px;
   height: 100px;
   padding: 8px;
-  background-color: orange;
+  background-color: purple;
 
   border: 2px solid #fff;
   color: #fff;
@@ -30,7 +30,7 @@ export const Button = styled.button`
   :focus {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     background-color: #fff;
-    color: orange;
+    color: pink;
   }
 `;
 

@@ -7,7 +7,7 @@ export const Button = styled.button`
   justify-content: space-between;
 
   padding: 8px 16px;
-  background-color: orange;
+  background-color: purple;
   border-radius: 4px;
   border: none;
   color: black;
@@ -20,7 +20,7 @@ export const Button = styled.button`
   :hover,
   :focus {
     background-color: #fff;
-    color: orange;
+    color: pink;
   }
 `;
 
